@@ -1,0 +1,8 @@
+body {
+margin: 0;
+}
+
+#encabezado img {
+    width: 50px;
+    height: auto;
+}
