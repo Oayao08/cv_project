@@ -5,13 +5,15 @@ body {
 
 .capçalera {
   display: flex;
+  justify-content: space-around;
   background-color: #f3f0e8;
   padding: 80px 20px 140px 20px;
+  gap: 30px;
 }
 
 .header-capçalera {
-  display: flex;
-  margin: 0 auto;
+  gap: 170px;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,7 +72,7 @@ body {
 
 .button button {
   background-color: #0099a8;
-  color: #ffffff;
+  color: #ffffff; 
 }
 
 h1,
