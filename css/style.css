@@ -1,8 +1,83 @@
 body {
   margin: 0;
+  font-family: "PT Sans Narrow";
 }
 
-#capçalera img {
-  width: 50px;
-  height: auto;
+.capçalera {
+  display: flex;
+  background-color: #f3f0e8;
+  padding: 80px 20px 140px 20px;
+}
+
+.header-capçalera {
+  display: flex;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subfoto {
+  position: relative;
+  display: inline-block;
+}
+
+.capçalera-img {
+  width: 350px;
+  height: 350px;
+  border-radius: 250px;
+}
+.capçalera-badge {
+  position: absolute;
+  width: 152px;
+  bottom: -20px;
+  right: -25px;
+  width: 140px;
+}
+
+.introduccion {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.subtitol {
+  font-size: 18px;
+  color: #9e8c6c;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 0 0 12px 0;
+  text-transform: uppercase;
+}
+
+.titol {
+  width: 100px;
+  font-size: 126px;
+  color: #000;
+  margin: 0 0 28px 0;
+}
+
+.button {
+  background-color: #0099a8;
+  border-radius: 5px;
+  padding: 14px 28px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button button {
+  background-color: #0099a8;
+  color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
 }

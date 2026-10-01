@@ -5,24 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi currículum</title>
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+    </style>
   </head>
   <body>
-    <header>
-      <div id="capçalera">
+    <header class="capçalera">
+      <div class="header-capçalera">
         <div class="foto">
-          <img src="imatges/foto.png" alt="Foto del personaje" />
+          <img src="imatges/foto.png" alt="Foto del personaje" class="capçalera-img"/>
+          <div class="subfoto">
+            <img src="imatges/subfoto.svg" alt="" class="capçalera-badge" />
+          </div>
         </div>
-        <div class="subfoto">
-          <img src="imatges/sub.png" alt="" />
-        </div>
-      </div>
-      <img src="imatges/sub.png" alt="" />
-      <div>
-        <h4 class="subtitol">DESIGNER / DEVELOPER</h4>
-        <h1 id="titol">Matt McDonald</h1>
-        <div id="button">
-          <button>CONTACT ME</button>
-        </div>
+
+        <aside class="introduccion">
+          <h4 class="subtitol">DESIGNER / DEVELOPER</h4>
+          <h1 class="titol">Matt McDonald</h1>
+          <div class="button">
+            <button>CONTACT ME</button>
+          </div>
+        </aside>
       </div>
     </header>
 
@@ -97,8 +101,8 @@
         </section>
       </aside>
 
-      <main class="hero columna-dd">
-        <section>
+      <main>
+        <section class="hero columna-dd">
           <h2>About Me</h2>
           <p>
             Use this area to say something about yourself or describe your
