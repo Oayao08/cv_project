@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "PT Sans Narrow";
+  text-align: center;
 }
 
 .capçalera {
@@ -44,7 +45,7 @@ body {
   align-items: flex-start;
 }
 
-.subtitol {
+.especial {
   font-size: 18px;
   color: #9e8c6c;
   font-weight: 700;
@@ -60,20 +61,17 @@ body {
   margin: 0 0 28px 0;
 }
 
-.button {
-  background-color: #0099a8;
-  border-radius: 5px;
-  padding: 14px 28px;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
 .button button {
-  background-color: #0099a8;
+  display: inline-block;
+  background-color: #0097a7;
   color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
+  padding: 0.85rem 1.6rem;
+  border: none;
+  cursor: pointer;
 }
 
 h1,
@@ -83,4 +81,20 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+}
+
+.contenidor {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  gap: 10px;
+  text-align: center;
+}
+
+.columna-dd {
+  flex: 1;
+}
+
+.columna-iz {
+  flex: 1;
 }
