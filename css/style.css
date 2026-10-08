@@ -82,10 +82,21 @@ h6 {
   font-family: "Playfair Display", Arial, Helvetica, sans-serif;
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
 .contenidor {
   display: flex;
   gap: 50px;
   width: 100%;
+  text-align: center;
+  justify-content: center;
 }
 
 .columna-dd {
@@ -93,10 +104,17 @@ h6 {
   flex-direction: column;
   padding-right: 0;
   position: relative;
+  max-width: 400px;
 }
 
 .columna-iz {
   display: flex;
   flex-direction: column;
-  margin: 40px 0px 0 15px;
+  margin: 20px;
+  max-width: 400px;
+}
+
+footer {
+  background-color: #f3f0e8;
+  padding: 80px 20px 140px 20px;
 }
