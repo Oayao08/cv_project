@@ -226,4 +226,50 @@ footer {
   .capçalera {
     padding: 70px 45px 90px;
   }
+  .header-capçalera {
+    gap: 30px;
+  }
+  .capçalera-img {
+    width: 350px;
+    height: 350px;
+  }
+  .capçalera-badge {
+    width: 125px;
+    font-size: 70px;
+  }
+  .contenidor {
+    width: 100%;
+    max-width: 600px;
+    padding: 70px 30px 90px;
+    gap: 50px;
+    flex-direction: column;
+  }
+
+  .columna-dd {
+    order: 1;
+    width: 100%;
+  }
+  .columna-iz {
+    order: 2;
+    width: 100%;
+    gap: 40px;
+  }
+  .columna-dd p,
+  .columna-iz p {
+    font-size: 25px;
+    line-height: 1.6;
+  }
+  .columna-dd > section {
+    margin-top: 50px;
+  }
+  .columna-dd article {
+    margin-bottom: 32px;
+  }
+
+  footer {
+    padding: 85px 25px 50px;
+  }
+}
+
+
 }
