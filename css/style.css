@@ -167,30 +167,30 @@ footer {
 }
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   .capçalera {
-    padding: 55px 30px 85px;
+    padding: 70px 35px 100px;
   }
   .header-capçalera {
-    gap: 17px;
+    gap: 20px;
   }
   .capçalera-img {
-    width: 175px;
-    height: 175px;
+    width: 300px;
+    height: 300px;
   }
   .capçalera-badge {
-    width: 70px;
+    width: 125px;
     right: -17px;
     bottom: -8px;
   }
   .titol {
-    width: 260px;
-    font-size: 54px;
+    width: 300px;
+    font-size: 70px;
     margin-bottom: 22px;
   }
   .contenidor {
     width: 100%;
-    max-width: 570px;
+    max-width: 600px;
     padding: 55px 25px 90px;
-    gap: 45px;
+    gap: 50px;
     flex-direction: column;
   }
   .columna-dd {
@@ -200,23 +200,30 @@ footer {
   .columna-iz {
     order: 2;
     width: 100%;
-    gap: 35px;
+    gap: 40px;
   }
   .columna-dd h2 {
-    font-size: 29px;
+    font-size: 40px;
   }
   .columna-dd p,
   .columna-iz p {
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.6;
   }
   .columna-dd > section {
-    margin-top: 34px;
+    margin-top: 50px;
   }
   .columna-dd article {
     margin-bottom: 32px;
   }
+
   footer {
     padding: 85px 25px 50px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .capçalera {
+    padding: 70px 45px 90px;
   }
 }
